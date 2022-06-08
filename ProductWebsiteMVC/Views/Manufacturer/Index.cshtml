@@ -1,0 +1,13 @@
+﻿@model IEnumerable<ProductData.Models.Manufacturer>
+@{
+    ViewData["Title"] = "All Manufacturers";
+}
+<h1>These are all the manufacturers</h1>
+<table class="table">
+    <tr><th scope="col">ID</th><th scope="col">Manufacturer Name</th><th></th></tr>
+    @foreach (var manufacturer in Model)
+    {
+        <tr><th scope="row">@manufacturer.Id</th><td>@manufacturer.Name</td><td><a asp-action="Edit" asp-controller="Manufacturer" asp-route-id="@manufacturer.Id">Edit</a></td></tr>
+    }
+</table>
+<a asp-action="Create" asp-controller="Manufacturer">Add New Manufacturer</a>

@@ -1,0 +1,67 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "Drone with Camera",
+      "description": "Built-in 2K Ultra HD Camera (2048 x 1152P) to captures your wonderful moments; 120� field of view and 90�adjustable angle broaden your view, create high definition footage and FPV live videos, allow you to see a wider and clearer view.",
+      "manufacturerId": 1,
+      "manufacturerName": null
+    },
+    {
+      "id": 2,
+      "name": "High Speed Remote Control Car",
+      "description": "2021 Upgraded 1:18 High-Speed RC Car: The newly upgraded 9300 high-speed remote control car has larger tires and newly designed tire threads, which gives it a stronger grip. The well-designed hub metal sheet increases the strength of the hub to prevent deformation caused by collision. We have also carefully equipped you with a brush and a drawstring pocket, which will help you keep the RC car tidy and store accessories.",
+      "manufacturerId": 1,
+      "manufacturerName": null
+    },
+    {
+      "id": 3,
+      "name": "Pan/Tilt Smart Security Camera",
+      "description": "1080P HD with Pan Tilt - 360 Degree rotational and 114 Degree vertical views with 1080p resolution and night vision up to 30 ft",
+      "manufacturerId": 2,
+      "manufacturerName": null
+    },
+    {
+      "id": 4,
+      "name": "Smart Plug Wi-Fi Outlet",
+      "description": "Schedule and Timer - Schedule/Timer the smart plug to automatically power electronics on and off as needed",
+      "manufacturerId": 2,
+      "manufacturerName": null
+    },
+    {
+      "id": 5,
+      "name": "Test Product",
+      "description": "Test Product",
+      "manufacturerId": 2,
+      "manufacturerName": null
+    },
+    {
+      "id": 6,
+      "name": "2",
+      "description": "2",
+      "manufacturerId": 3,
+      "manufacturerName": null
+    },
+    {
+      "id": 7,
+      "name": "3",
+      "description": "3",
+      "manufacturerId": 2,
+      "manufacturerName": null
+    }
+  ],
+  "manufacturer": [
+    {
+      "id": 1,
+      "name": "Remote Control Machines Ltd"
+    },
+    {
+      "id": 2,
+      "name": "NetworkDevices.Com"
+    },
+    {
+      "id": 3,
+      "name": "Test Manufacturer"
+    }
+  ]
+}

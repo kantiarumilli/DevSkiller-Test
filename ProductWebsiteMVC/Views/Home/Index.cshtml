@@ -1,0 +1,25 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <h1 class="display-4 text-center">Welcome</h1>
+    <p>This website lists the products in our catalogue.</p>
+    <p>This is also the site we use to manage the products. They can be added and edited here too.</p>
+    <p>We're using a JSON file for the database for now, with the intention to replace it with an Azure CosmosDB or similar when we eventually deploy this site to a production setting. 
+    You can find documentation for the datastore API <a href="https://discoverdot.net/projects/json-flatfile-datastore">here</a>.</p>
+    <h2>Your Tasks</h2>
+    <p>We need the ability to manage the list of manufacturers:</p>
+    <ul><li>Add a page to list the manufacturers</li>
+    <li>Add the ability to add and edit the manufacturers</li>
+    </ul>
+    <p>In addition:</p>
+    <ul>
+        <li>Manufacturers&apos; names must be between 1 and 30 characters in length</li>
+        <li>Since we display the list of products prefixed with the manufacturers&apos; names, you need to ensure that products&apos; names cannot contain the manufacturer name</li>
+        <li>The list of available Manufacturers is currently hardcoded on the product edit page. Change this to use the manufacturers in the database.</li>
+    </ul>
+    <h3>Notes:</h3>
+    <p>Treat this as you would treat a similar task you have been given in your job. Any of the existing code can be modified if that is appropriate.</p>
+    <p>Please make sure you have pushed your changes to the repository before the test time ends.</p>
+</div>

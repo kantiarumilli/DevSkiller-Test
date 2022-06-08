@@ -1,0 +1,13 @@
+@model IEnumerable<ProductData.Models.Product>
+@{
+    ViewData["Title"] = "All Products";
+}
+<h1>These are all the products</h1>
+<table class="table">
+    <tr><th scope="col">ID</th><th scope="col">Product Name</th><th></th></tr>
+    @foreach (var product in Model)
+    {
+        <tr><th scope="row">@product.Id</th><td>@product.ManufacturerName - @product.Name</td><td><a asp-action="Edit" asp-controller="Product" asp-route-id="@product.Id">Edit</a></td></tr>
+    }
+</table>
+<a asp-action="Create" asp-controller="Product">Add New Product</a>
